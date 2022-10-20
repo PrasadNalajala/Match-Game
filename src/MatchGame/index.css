@@ -6,6 +6,7 @@
 }
 .entire-site {
   height: 100vh;
+  max-height:100%;
 }
 .nav {
   background-color: #2c0e3a;
