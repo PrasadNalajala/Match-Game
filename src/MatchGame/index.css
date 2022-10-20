@@ -1,0 +1,135 @@
+.bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  height: 100%;
+  background-size: cover;
+  font-family: 'Roboto';
+}
+.entire-site {
+  height: 100vh;
+}
+.nav {
+  background-color: #2c0e3a;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+}
+.timer {
+  height: 30px;
+  padding-left: 15px;
+}
+h1 {
+  color: #ffffff;
+}
+.span {
+  color: #fec653;
+  font-size: 24px;
+}
+.score {
+  font-size: 20px;
+  color: #ffffff;
+  padding-left: 5px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+@media all and (max-width: 576px) {
+  .image {
+    height: 180px;
+  }
+  .scorecard {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    height: 100%;
+    background-size: cover;
+    padding: 20%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .trophy {
+    height: 100px;
+  }
+}
+
+@media all and (min-width: 576px) {
+  .container {
+    padding: 30px;
+  }
+  .image {
+    height: 400px;
+  }
+  .scorecard {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    height: 100%;
+    background-size: cover;
+    padding: 20%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* margin: 30px;
+    background-size: cover; */
+  }
+  .trophy {
+    height: 200px;
+    padding-top: 15px;
+  }
+}
+.tabsContainer {
+  display: flex;
+  padding: 20px;
+}
+.thumbnailContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.resetBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cf60c8;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.scoreLabel {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 0;
+}
+.score1 {
+  font-size: 38px;
+}
+ul {
+  padding: 0;
+}
+.info{
+    color: rgb(226, 176, 114);
+}

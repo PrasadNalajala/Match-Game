@@ -1,0 +1,12 @@
+.thumbnailBtn{
+background-color: transparent;
+border: 0;
+cursor: pointer;
+outline: none;
+}
+.thumbnail{
+    height: 100px;
+}
+li{
+    list-style-type: none;
+}
